@@ -1,0 +1,12 @@
+#+TITLE: Notes on Algorithms in C++ 1-4
+#+PROPERTY: date_started <2017-10-27 Fri>
+#+PROPERTY: book_author Robert Sedgewick
+
+* Glossary
+
+* Chapter 1: Introduction
+** Summary 
+** Related concepts
+*** variable-name equivalence problem
+This is listed as a motivation for the development of algorithms that
+solve the connectivity problem.
