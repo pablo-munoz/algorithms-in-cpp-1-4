@@ -1,0 +1,20 @@
+#+TITLE: Notes on Algorithms in C++ 1-4
+#+PROPERTY: date_started <2017-10-27 Fri>
+#+PROPERTY: book_author Robert Sedgewick
+
+* Glossary
+
+* Chapter 1: Introduction
+** Summary 
+The /quick-find algorithm/ uses an array for each element. Elements
+$p$ and $q$ are connected if the $pth$ and $qth$ entries in the array
+have the same value. For the find operation we just compare the values
+at the two indices. For the union operation we have to scan the whole
+array, for each pair. It's complexity is at lest $M N$ instructions
+with $N$ objects and $M$ union operations.
+
+The /quick-union algorithm/ uses an array for each element. Where the
+value at the $pth$ position indicates the "parent" of the $pth$
+element. Now the find operation will involve querying the parents of
+$p$ and $q$ recursively untill we find one that is its own parent,
+i.e.  we get to the "topmost" parent, then compare them.

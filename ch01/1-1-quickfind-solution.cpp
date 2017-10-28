@@ -3,6 +3,7 @@
 #include <iostream>
 
 static const int N = 10000;
+
 int main()
 {
   int i, p, q, id[N];

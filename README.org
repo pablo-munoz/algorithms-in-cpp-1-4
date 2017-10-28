@@ -1,12 +1,10 @@
-#+TITLE: Notes on Algorithms in C++ 1-4
-#+PROPERTY: date_started <2017-10-27 Fri>
-#+PROPERTY: book_author Robert Sedgewick
+#+TITLE: Algorithms in C++ Parts 1-4
 
-* Glossary
+These are my notes and programs for the book "Algorithms in C++ Parts
+1-4" by Robert Sedgewick which I started reading on <2017-10-27 Fri>.
 
-* Chapter 1: Introduction
-** Summary 
-** Related concepts
-*** variable-name equivalence problem
-This is listed as a motivation for the development of algorithms that
-solve the connectivity problem.
+* Chapter Notes
+
+| Chapter | Notes file               |
+|---------+--------------------------|
+|      01 | [[file:ch01/ch01_notes.org]] |
