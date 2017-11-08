@@ -18,3 +18,15 @@ value at the $pth$ position indicates the "parent" of the $pth$
 element. Now the find operation will involve querying the parents of
 $p$ and $q$ recursively untill we find one that is its own parent,
 i.e.  we get to the "topmost" parent, then compare them.
+
+The /weighted-union algorithm/ is like the /quick-union algorithm/ with
+the difference that we'll be keeping track of the number of nodes in each
+tree, and always connect the the smaller tree to the larger tree.
+
+We may further improve the /weighted-union algorithm/ by using a
+method that is called /path compression/. With this method we make
+each node in the tree point to the root when we perform a union, that
+way, when we look up, we don't have to traverse many nodes. A simpler
+solution, which is known as /path compression by halving/ makes the
+nodes point to their parent's parent instead. The book states that in
+practice, this is pretty close to the idealized /path compression/.
